@@ -1,0 +1,67 @@
+body{
+    background:rgb(230, 240, 247);
+    font-family: 'Roboto', sans-serif;
+}
+.purple{
+    background: rgb(120, 21, 219);
+    padding:25px;
+    margin: 20px;
+}
+.white{
+    color:white;
+    font-size:15px;
+}
+.cream{
+    color:rgb(201, 196, 207);
+    font-size:12px;
+}
+.white-para{
+    color:white;
+    font-size:18px;
+}
+.darkish-grey{
+    background:rgb(76, 85, 103);
+    padding:25px;
+    margin: 20px;
+}
+.light-grey{
+    color: rgb(204, 201, 209);
+    font-size:12px;
+}
+.white-div-1{
+    background:white;
+    padding:25px;
+    margin: 20px;
+}
+.white-div-2{
+    background:white;
+    padding:25px;
+    margin: 20px;
+}
+.black{
+    color:rgb(54, 49, 54);
+    font-size:15px;
+}
+.dark-cream-1{
+    color:rgb(145, 140, 145);
+    font-size:12px;
+}
+.dark-cream{
+    color:rgb(145, 140, 145);
+    font-size:20px;
+}
+.black-para{
+    color:rgb(69, 63, 69);
+    font-size:25px;
+}
+.navy-blue{
+    background: rgb(10, 15, 64);
+    padding:25px;
+    margin: 20px;
+}
+.grid-container{
+    display:grid;
+    margin:10px;
+    grid-template-columns:auto auto auto auto;
+    grid-template-rows: auto auto;
+}

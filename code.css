@@ -1,0 +1,79 @@
+body{
+    background:rgb(236, 242, 246);
+    font-family: sans-serif;
+}
+.top{
+    color:rgb(161, 161, 161);
+    text-align:center;
+}
+.heading{
+    color:rgb(71, 73, 74);
+    text-align:center;
+}
+.light-grey{
+    color:rgb(161, 161, 161);
+    text-align:center;
+}
+.grid-container{
+    display:grid;
+    margin:10px;
+    grid-template-columns:auto auto auto;
+    grid-template-rows:auto auto auto auto;
+}
+.supervisor{
+    box-shadow:
+        inset 0px 11px 8px -10px aqua,
+        inset 0px -11px 8px -10px grey;
+    background:white;
+    margin:10px;
+    padding:15px;
+}
+.team-builder{
+    box-shadow:
+        inset 0px 11px 8px -10px red,
+        inset 0px -11px 8px -10px grey;
+    background:white;
+    margin:10px;
+    padding:15px;
+}
+.calculator{
+    box-shadow:
+        inset 0px 11px 8px -10px rgb(80, 113, 204),
+        inset 0px -11px 8px -10px grey;
+    background:white;
+    margin:10px;
+    padding:15px;
+}
+.karma{
+    box-shadow:
+        inset 0px 11px 8px -10px rgb(240, 167, 72),
+        inset 0px -11px 8px -10px grey;
+    background:white;
+    margin:10px;
+    padding:15px;
+}
+.supimg{
+    height:80px;
+    float:right;
+}
+.teamimg{
+    float:right;
+    height: 60px;
+}
+.calcimg{
+    float:right;
+    height: 60px;
+}
+.karimg{
+    float:right;
+    height: 70px;
+}
+
+@media screen and (max-width:620px){
+    .grid-container{
+        display:grid;
+        margin:10px;
+        grid-template-columns:155px 155px 155px;
+        grid-template-rows:auto auto auto auto;
+    }
+}

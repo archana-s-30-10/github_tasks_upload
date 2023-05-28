@@ -1,0 +1,56 @@
+body{
+    font-family: sans-serif;
+}
+h1{
+    color: rgb(66, 222, 227); 
+}
+.subtitle{
+    color:rgb(188, 237, 102);
+}
+.main-para{
+    color:rgb(181, 186, 171);
+}
+h2{
+    color:white;
+}
+.big{
+    font-size:30px;
+    color:white;
+}
+.second{
+    color:rgb(221, 227, 211);
+}
+.rest{
+    color:white;
+}
+button{
+    background:rgb(188, 237, 102);
+    text-align: center;
+    color:white;
+    border:none;
+    height:35px;
+    width:245px;
+}
+button:hover{
+    background:rgb(180, 212, 123);
+}
+.grid-container{
+    display:grid;
+    height: 300px;
+    grid-template-columns:50% 50%;
+}
+.grid-item{
+    text-align:left;
+    padding:20px;
+}
+@media screen and (max-width:500px){
+    button{
+        background:rgb(188, 237, 102);
+        text-align: center;
+        color:white;
+        border:none;
+        height:35px;
+        width:70px;
+    }
+}
+
